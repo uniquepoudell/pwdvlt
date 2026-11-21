@@ -9,7 +9,8 @@ libsodium (through [PyNaCl](https://pynacl.readthedocs.io/)), not hand-written c
 You need Python 3.9 or newer.
 
 ```bash
-cd password-manager
+git clone https://github.com/uniquepoudell/pwdvlt.git
+cd pwdvlt
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -e .                   # installs PyNaCl and the `pwvault` command
